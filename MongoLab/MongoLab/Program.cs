@@ -16,6 +16,7 @@ namespace MongoLab
             //Create collection "BookStore" or retrieve if exists
             var collection = mongoDb.GetCollection<BookStore>("BookStore");
 
+
             //Create a book list
             List<BookStore> bookStores = new List<BookStore>
                 {
